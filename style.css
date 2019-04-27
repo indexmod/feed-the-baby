@@ -23,7 +23,28 @@ p {
   color: black;
 }
 
-:link { color: #0000EE; font-family: 'Helvetica Neue';
-font-size: 30px;}
-:visited { color: #551A8B; font-family: 'Helvetica Neue';
-font-size: 30px;}
+a:link {
+  font-family: 'Helvetica Neue';
+  color: #4e80d8;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: right;
+}
+
+a:visited {
+  color: #4e80d8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #4e80d8;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+a:active {
+  color: #4e80d8;
+  text-decoration: none;
+  font-weight: 500;
+}
