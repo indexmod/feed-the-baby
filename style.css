@@ -22,3 +22,8 @@ p {
   font-weight: 900;
   color: black;
 }
+
+:link { color: #0000EE; font-family: 'Helvetica Neue';
+font-size: 30px;}
+:visited { color: #551A8B; font-family: 'Helvetica Neue';
+font-size: 30px;}
